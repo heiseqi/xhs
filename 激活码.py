@@ -19,7 +19,7 @@ def generate_activation_code(hardware_id):
     third_part = hardware_parts[2]
 
     # 组合字符串
-    combined_string = f"{encrypted_hardware_id}-{third_part}-xhs-{second_part}"
+    combined_string = f"{encrypted_hardware_id}-{third_part}-fuck_xhs_login-{second_part}"
 
     # 第二次 MD5 加密
     final_activation_code = md5_hash(combined_string)
